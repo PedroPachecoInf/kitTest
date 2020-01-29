@@ -13,10 +13,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var MyComponent = function MyComponent() {
   var labeText = 'Enter name: ';
   var buttonText = { text: 'Click here bro!' };
-
   return _react2.default.createElement(
     'div',
     null,
+    _react2.default.createElement(
+      'div',
+      null,
+      'TOU A DAR RENDER'
+    ),
     _react2.default.createElement(
       'label',
       { className: 'label', htmlFor: 'name' },
